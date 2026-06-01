@@ -108,7 +108,7 @@ export default function Header() {
     <>
     <header className={`fixed top-0 w-full z-50 pt-4 max-lg:px-5 ${
       isSticky
-        ? "bg-black shadow-lg py-2"
+        ? "bg-black shadow-lg py-2 transition-all duration-300"
         : "bg-transparent py-6"
     }`} ref={topBarRef}>
       <div ref={navRef} className="flex items-center justify-between max-w-7xl mx-auto">
